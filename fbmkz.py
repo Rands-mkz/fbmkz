@@ -1099,7 +1099,7 @@ if __name__=='__main__':
 	#except:pass
 	try:os.system('clear')
 	#except:pass
-	#alvino_xy(f'\n\t{x}——> {h}SELAMAT DATANG DI SCRIPT ꧁卩尺ㄖᎶ尺卂爪 匚ㄖᗪ乇S》,  GUNAKAN SCRIPT DENGAN BIJAK. KALO ADA BUG BISA LAPOR KE PEMBUAT SC NYAH! WA? 081333554156n\t{x}')
+	alvino_xy(f'\n\t{x}——> {h}SELAMAT DATANG DI SCRIPT ꧁卩尺ㄖᎶ尺卂爪 匚ㄖᗪ乇S》,  GUNAKAN SCRIPT DENGAN BIJAK. KALO ADA BUG BISA LAPOR KE PEMBUAT SC NYAH! WA? 081333554156n\t{x}')
 	time.sleep(3)
 	login()
 
