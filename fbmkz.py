@@ -130,7 +130,7 @@ thn = datetime.datetime.now().year
 okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
-def rands_mkz(u):
+def alvino_xy(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.05)
 def clear():
 	os.system('clear')
@@ -144,21 +144,21 @@ ________________ _____________________
  |     \/    Y    \    |   \|     \   
  \___  /\____|__  /______  /\___  /   
      \/         \/       \/     \/ v.0.1''')
-#time.sleep (1)
-#print ("\t\x1b[32mWAIT LOADING.....")
-#time.sleep (1)
-#os.system ("clear")
-#time.sleep (1)
+time.sleep (1)
+print ("\t\x1b[32mWAIT LOADING.....")
+time.sleep (1)
+os.system ("clear")
+time.sleep (1)
 #print ("\x1b[33mNOTE !!!")
-#time.sleep (1)
+time.sleep (1)
 #print ("\x1b[96m[\x1b[91m1\x1b[96m] \x1b[96mAnda Belum Memiliki Lisense!!!\x1b[91m:V")
-#time.sleep (1)
+time.sleep (1)
 #os.system("xdg-open https://wa.me/6283109115523?text=Kak+AHMAD-R+Beli+Lisensi+Nya+Donggg.......!!!!!!!!")
-#time.sleep (5)
-#os.system ("clear")
-#time.sleep (1)
-#os.sysTem('toiLet -f slant --gay "Lisense"')
-#print('\x1b[1;92mCODED BY ▄▅▆RANDS_MKZ')
+time.sleep (5)
+os.system ("clear")
+time.sleep (1)
+#os.system('toilet -f slant --gay "Lisense"')
+#print('\x1b[1;92mCODED BY ▄▅▆AHMADRIVANDI')
 #lesensi = input('masukan lisense : ')
 #if lesensi not in 'JAVS-OWBY-PABE-WQJA-AKDB':
 #    print ('\x1b[1;91mLESENSI IN VALID')
@@ -223,10 +223,10 @@ def menu(my_name,my_id):
 	print(f'>> Your Ip  : {ip}')
 	print(f'>> Github   : {gh}')
 	print('')
-	print('1. Mulai Maling ')
+	print('1. Mulai Crack Publick ')
 	print('2. Crack Follower ')
 	print('3. Crack Grup   ')
-	print('4. Maling from File	')
+	print('4. Crack from File	')
 	print('5. Cek hasil maling  ')
 	print('0. Keluar       ')
 	_____alvino__adijaya_____ = input('\n===> Pilih : ')
@@ -583,7 +583,7 @@ def crack_file():
 		setting()
 def setting():
 	print(f'{x}>> 1. Akun Old ')
-	print('>> 2. Akun New{H}(disarankan) ')
+	print('>> 2. Akun New ')
 	print('')
 	hu = input('>> Pilih : ')
 	if hu in ['1','01']:
@@ -602,7 +602,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('>> 1. Mobile{H}(disarankan) ')
+	print('>> 1. Mobile ')
 	print('>> 2. Mbasic ')
 	print('>> 3. Touch  ')
 	print('')
@@ -1087,19 +1087,19 @@ def cek_apk(session,cookie):
 if __name__=='__main__':
 	try:os.system('git pull')
 	except:pass
-	try:os.mkdir('/sdcard/OK')
+	try:os.mkdir('OK')
 	except:pass
-	try:os.mkdir('/sdcard/CP')
+	try:os.mkdir('CP')
 	except:pass
 	try:os.mkdir('/sdcard/ALVINO-DUMP')
 	except:pass
 	try:os.system('touch .prox.txt')
 	except:pass
-	try:os.system('pkg install play-audio')
+	#try:os.system('pkg install play-audio')
 	#except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}——> {h}SELAMAT DATANG DI SCRIPT ꧁SCRIPT MKZ》,  GUNAKAN SCRIPT DENGAN BIJAK. KALO ADA BUG BISA LAPOR KE PEMBUAT SC NYAH! n\t{x}')
+	alvino_xy(f'\n\t{x}——> {h}SELAMAT DATANG DI SCRIPT ꧁卩尺ㄖᎶ尺卂爪 匚ㄖᗪ乇S》,  GUNAKAN SCRIPT DENGAN BIJAK. KALO ADA BUG BISA LAPOR KE PEMBUAT SC NYAH! WA? 081333554156n\t{x}')
 	time.sleep(3)
 	login()
 
