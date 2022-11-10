@@ -181,24 +181,24 @@ for x in range(999):
 	rc = random.choice
 	rr = random.randint
 	aZ = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-#	A = f'Mozilla/5.0 (Linux; Android {str(rr(8,10))}; Redmi {str(rr(4,9))} Build/PPR1.'
-#	B = f'{str(rr(111111,199999))}.011; en-us) AppleWebKit/537.36 '
-#	C = f'(KHTML, like Gecko) UCBrowser/79.0.{str(rr(1111,9999))}.136 Mobile Safari'
-#	D = f'/537.36 Puffin/9.7.2.{str(rr(11111,99999))}AP'
-#	pf = f'{A}{B}{C}{D}'
-#	if pf in redmi:pass
-#	else:redmi.append(pf)
-#	A = f'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0; Android {str(rr(7,10))};'
-#	B = f' MI 4LTE Build/{str(rc(aZ))}{str(rc(aZ))}{str(rc(aZ))}63{str(rc(aZ))}; ) AppleWebKit/537.36 (KHTML, like Gecko) UCBrowser/'
-#	C = f'10.9.2.{str(rr(111,999))} U3/0.8.0 Mobile Safari/534.30'
-#	mi = f'{A}{B}{C}'
-#	if mi in redmi:pass
-#	else:redmi.append(mi)
-	A = f'Mozilla/5.0 (Linux; Android 4.0.3; KFTT Build/IML74K)'
+	A = f'Mozilla/5.0 (Linux; Android{str(rr(8,10))}; vivo Y21 {str(rr(4,9))} Build/LMY47I.'
+	B = f'{str(rr(111111,199999))}.011; en-us) AppleWebKit/537.36 '
+	C = f'(KHTML, like Gecko) UCBrowser/79.0.{str(rr(1111,9999))}.136 Mobile Safari'
+	D = f'/537.36 Puffin/9.7.2.{str(rr(11111,99999))}AP'
+	pf = f'{A}{B}{C}{D}'
+	if pf in redmi:pass
+	else:redmi.append(pf)
+	A = f'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0; Android {str(rr(7,10))};'
+	B = f' MI 4LTE Build/{str(rc(aZ))}{str(rc(aZ))}{str(rc(aZ))}63{str(rc(aZ))}; ) AppleWebKit/537.36 (KHTML, like Gecko) UCBrowser/'
+	C = f'10.9.2.{str(rr(111,999))} U3/0.0 Mobile Safari/534.30'
+	mi = f'{A}{B}{C}'
+	if mi in redmi:pass
+	else:redmi.append(mi)
+	A = f'Mozilla/5.0 (Linux; U; Android 8; SM-A135F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Versi/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36'
 	B = f'{str(rc(aZ))}{str(rc(aZ))}{str(rc(aZ))}{str(rr(11,99))}{str(rc(aZ))}'
 	C = f'{str(rr(30,57))} Build/{B}) AppleWebKit/537.36 (KHTML, like Gecko)'
-	D = f' Silk/62.7.1 Chrome/{str(rr(20,100))}.0.{str(rr(1111,9999))}.{str(rr(20,100))}'
-	E = f' Mobile Safari/537.36'
+	D = f' Version/4.0 Chrome/{str(rr(20,100))}.0.{str(rr(1111,9999))}.80 Mobile Safari/'
+	E = f'537.36 HeyTapBrowser/{str(rr(2,40))}.22.7.36.1'
 	F = f'{A}{C}{D}{E}'
 	if F in redmi:pass
 	else:redmi.append(F)
