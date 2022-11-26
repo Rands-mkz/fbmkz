@@ -44,19 +44,19 @@ except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
-	a='Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0'
+	a='Mozilla/5.0 (Windows NT 6.3; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='Nokia'
 	e=random.randrange(100, 9999)
-	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0'
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) Windows NT 6.3; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Firefox/31.0'
+	k='Firefox/33.0'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-	#ugen2.append(uaku)
+	ugen2.append(uaku)
 
 
 	aa='Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
@@ -71,8 +71,8 @@ for xd in range(10000):
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
 	l='S40OviBrowser/4.0.0.0.45'
-	uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen2.append(uaku)
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
 for x in range(10):
 	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
 	b=random.randrange(100, 9999)
