@@ -44,35 +44,36 @@ except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
-	a='Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8b4) Gecko/20050908 Firefox/1.4'
+	a='Mozilla/5.0 (Symbian/3; Series60/'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='Nokia'
 	e=random.randrange(100, 9999)
-	f='/2.0+(04.43)+Profile/MIDP-2.0+Configuration/CLDC-1.1+UP.Link/6.3.0.0.0 ) Windows; U; Windows NT 5.1; en-US; rv:1.8b4) Gecko/20050908 Firefox/1.4'
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Firefox/1.4'
+	k='Mobile Safari/535.1'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 
 
-	aa='Mozilla/5.0 (Linux; Android'
-	b=random.randrange(1, 9)
-	c=random.randrange(1, 9)
-	d='V2'
-	e=random.randrange(100, 9999)
-	f='/07.80; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/4.0.0.0.45'
-	g=random.randrange(1, 9)
-	h=random.randrange(1, 4)
+	aa='Mozilla/5.0 (Linux; U; Android'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c=' en-us; GT-'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
 	l='Mobile Safari/537.36'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
+
 for x in range(10):
 	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
 	b=random.randrange(100, 9999)
@@ -87,6 +88,7 @@ for x in range(10):
 	k=random.randrange(1, 9)
 	l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+#	ugen.append(uak)
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
