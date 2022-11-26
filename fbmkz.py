@@ -44,33 +44,33 @@ except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
-	a='Mozilla/5.0 (Windows NT 10.0; Win64; x64) Gecko/85.0.4183.121 Safari/537.36'
+	a='Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='Nokia'
 	e=random.randrange(100, 9999)
-	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) Windows NT 10.0; Win64; x64) Gecko/85.0.4183.121 Safari/537.36'
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Safari/537.36'
+	k='Firefox/31.0'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 
 
-	aa='Mozilla/5.0 (Linux; Android'
+	aa='Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
-	d='V2'
+	d='Nokia'
 	e=random.randrange(100, 9999)
-	f='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	f='/07.80; Profile/MIDP-2.1 Configuration/CLDC-1.1) Windows NT 10.0; Win64; x64) Gecko/20100401 S40OviBrowser/4.0.0.0.45'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile Safari/537.36'
+	l='S40OviBrowser/4.0.0.0.45'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
