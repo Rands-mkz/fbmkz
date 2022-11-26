@@ -56,7 +56,7 @@ for xd in range(10000):
 	j=random.randrange(1, 4)
 	k='Firefox/31.0'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-	ugen2.append(uaku)
+	#ugen2.append(uaku)
 
 
 	aa='Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
@@ -71,8 +71,8 @@ for xd in range(10000):
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
 	l='S40OviBrowser/4.0.0.0.45'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
+	uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen2.append(uaku)
 for x in range(10):
 	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
 	b=random.randrange(100, 9999)
