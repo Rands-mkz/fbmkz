@@ -44,20 +44,19 @@ except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android'
-    b=random.choice(['6','7','8','9','10','11','12'])
-    c='SM-G975F)'
-    d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    e=random.randrange(1, 99)
-    f='0'
-    g=random.randrange(1, 99)
-    h=random.randrange(1, 99)
-    i='1'
-    j=random.randrange(1, 99)
-    k='Mobile Safari/537.36'
-    uaku=(f'{a} {b}; {c} {d}{e}.{f}.{g}{h}.{i}{j} {k}')
+    a='Mozilla/5.0 (iPhone;'
+    b='CPU iPhone OS '
+    c='1'
+    d=random.randrange(1, 9)
+    e=random.randrange(1, 9)
+    f='like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 musical_ly_'
+    g='2'
+    h=random.randrange(1, 9)
+    i=random.randrange(1, 9)
+    j='0'
+    k='JsSdk/2.0 NetType/WIFI Channel/App Store ByteLocale/en Region/US ByteFullLocale/en isDarkMode/1 WKWebView/1 BytedanceWebview/d8a21c6 FalconTag/'
+    uaku=(f'{a} {b}{c}{d}_{e} {f}{g}{h}.{i}.{j} {k}')
     ugen2.append(uaku)
-
 
     aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['6','7','8','9','10','11','12'])
