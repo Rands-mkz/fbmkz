@@ -16,7 +16,7 @@ pip install rich
 
 pip install mechanize
 
-rm -rf crack-fb
+rm -rf fbmkz
 
 git clone https://github.com/Rands-mkz/fbmkz
 
@@ -24,4 +24,4 @@ cd fbmkz
 
 git pull
 
-python mod.py
+python fbmkz.py
